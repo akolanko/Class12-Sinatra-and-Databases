@@ -1,0 +1,73 @@
+body{
+	font-family: "Sackers Gothic Std", sans-serif;
+	font-size: 14px;
+	text-transform: lowercase;
+	line-height: 140%
+}
+
+#container{
+	max-width: 900px;
+	margin: 30px auto;
+}
+
+h2{
+	font-size: 18px;
+	padding: 20px 0;
+	margin: 0;
+}
+
+.table{
+	padding: 10px;
+}
+
+h1{
+	font-size: 20px;
+	padding: 20px 0;
+}
+
+#body{
+	margin: 0;
+	padding: 0 0 0 30px;
+}
+
+p.posttitle{
+	font-size: 18px;
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+
+p.datetime{
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+}
+
+.link{
+	padding: 30px 10px 20px 10px;
+}
+
+ul#pages{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#pages li{
+	display: inline;
+	margin-right: 30px;
+}
+
+a.foot:link{
+	text-decoration: none;
+	font-size: 16px;
+	color: #a9a9a9;
+}
+
+a.foot:visited{
+	color: #a9a9a9;
+}
+
+a.foot:hover{
+	color: #a9a9a9;
+	opacity: .5;
+}

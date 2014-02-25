@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Addresses
+		</title>
+	</head>
+	<body>
+		<div id="container">
+			<div class="table">
+				<h1>
+					Addresses
+				</h1>
+				street: <%= @address_first.street %>
+				<br>
+				city: <%= @address_first.city %>
+				<br>
+				state: <%= @address_first.state %>
+				<br>
+				country: <%= @address_first.country %>
+				<br>
+				zipcode: <%= @address_first.zip %>
+				<br>
+				<br>
+				street: <%= @address_second.street %>
+				<br>
+				city: <%= @address_second.city %>
+				<br>
+				state: <%= @address_second.state %>
+				<br>
+				country: <%= @address_second.country %>
+				<br>
+				zipcode: <%= @address_second.zip %>
+			</div>
+			<div class="link">
+				<a class="foot" href="/">[Back]</a>
+			</div>
+		</div>
+	</body>
+</html>

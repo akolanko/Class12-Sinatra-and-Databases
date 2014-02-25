@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Posts
+		</title>
+	</head>
+	<body>
+		<div id="container">
+			<div class="table">
+				<h1>
+					Posts
+				</h1>
+				<div id="body">
+					<p class="posttitle">
+						<%= @post_first.title %>
+					</p>
+					<br>
+					<p class="postcontent">
+						<%= @post_first.content %>
+					</p>
+					<br>
+					<p class="datetime">
+						<%= @post_first.datetime %>
+					</p>
+					<br>
+					<p class="posttitle">
+						<%= @post_second.title %>
+					</p>
+					<br>
+					<p class="postcontent">
+						<%= @post_second.content %>
+					</p>
+					<br>
+					<p class="datetime">
+						<%= @post_second.datetime %>
+					</p>
+				</div>
+			</div>
+			<div class="link">
+				<a class="foot" href="/">[Back]</a>
+			</div>
+		</div>
+	</body>
+</html>
