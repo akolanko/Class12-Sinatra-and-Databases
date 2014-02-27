@@ -1,50 +1,40 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>
-			Home
-		</title>
-	</head>
-	<body>
-		<div id="container">
-			<div class="table">
-				<h2>
-					User Information
-				</h2>
-				name: <%= @user_one.fname %> <%= @user_one.lname %>
-				<br>
-				email: <%= @user_one.email %>
-			</div>
+<div id="container">
+	<div class="table">
+		<h2>
+			User Information
+		</h2>
+		name: <%= @user_one.fname %> <%= @user_one.lname %>
+		<br>
+		email: <%= @user_one.email %>
+	</div>
 			
-			<br>
+	<br>
 
-			<div class ="table">
-				<h2>
-					Profile
-				</h2>
-				gender: <%= @profile_one.gender %>
-				<br>
-				birthday: <%= @profile_one.birthday %>
-				<br>
-				religion: <%= @profile_one.religion %>
-				<br>
-				status: <%= @profile_one.status %>
-			</div>
+	<div class ="table">
+		<h2>
+			Profile
+		</h2>
+		gender: <%= @profile_one.gender %>
+		<br>
+		birthday: <%= @profile_one.birthday %>
+		<br>
+		religion: <%= @profile_one.religion %>
+		<br>
+		status: <%= @profile_one.status %>
+	</div>
 
-			<div class="link">
-				<ul id="pages">
-					<li>
-						<a class="foot" href="/posts">[Posts]</a>
-					</li>
-					<li>
-						<a class="foot" href="/addresses">[Addresses]</a>
-					</li>
-					<li>
-						<a class="foot" href="/rooms">[Rooms]</a>
-					</li>
-				</ul>
-			</div>
+	<div class="link">
+		<ul id="pages">
+			<li>
+				<a class="foot" href="/posts">[Posts]</a>
+			</li>
+			<li>
+				<a class="foot" href="/addresses">[Addresses]</a>
+			</li>
+			<li>
+				<a class="foot" href="/rooms">[Rooms]</a>
+			</li>
+		</ul>
+	</div>
 
-		</div>
-	</body>
-</html>
+</div>
